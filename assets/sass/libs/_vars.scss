@@ -1,0 +1,106 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		nav:				0.5s,
+		transition:			0.2s
+	);
+
+// Size.
+	$size: (
+		border-radius:		0,
+		border-width:		1px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		nav:				20em
+	);
+
+// Font.
+	$font: (
+		family:				('Lato', Arial, Helvetica, sans-serif),
+		family-header: 		('Josefin Sans', Arial, Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		letter-spacing:     0.1em,
+		weight:				300,
+		weight-bold:		400,
+		weight-extra-bold:	600
+	);
+	
+	$accentColor: 			#990000;
+
+// Palette.
+	$palette: (
+		bg-alt:				#333,
+		bg:					#fff,
+		fg:					#777,
+		fg-bold:			#555,
+		fg-light:			#bbb,
+		highlight:			$accentColor,
+		border:				rgba(144,144,144,0.25),
+		border-bg:			rgba(144,144,144,0.075),
+		border2:			rgba(144,144,144,0.5),
+		border2-bg:			rgba(144,144,144,0.2),
+
+		accent1: (
+			bg:				$accentColor,
+			fg:				mix($accentColor, #ffffff, 25%),
+			fg-bold:		#ffffff,
+			fg-light:		mix($accentColor, #ffffff, 40%),
+			highlight:		darken($accentColor, 30),
+			border:			#fff,
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		#fff,
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent2: (
+			bg:				#3f333f,
+			fg:				mix(#3f333f, #ffffff, 25%),
+			fg-bold:		#ffffff,
+			fg-light:		mix(#3f333f, #ffffff, 40%),
+			highlight:		#ffffff,
+			border:			rgba(255,255,255,0.15),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(255,255,255,0.5),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent3: (
+			bg:				#eeefef,
+			fg:				#777,
+			fg-bold:		#555,
+			fg-light:		#bbb,
+			highlight:		#222,
+			border:			rgba(144,144,144,0.25),
+			border-bg:		rgba(144,144,144,0.075),
+			border2:		rgba(144,144,144,0.5),
+			border2-bg:		rgba(144,144,144,0.2),
+		),
+
+		accent4: (
+			bg:				#3f333f,
+			fg:				#eeefef,
+			fg-bold:		#eeefef,
+			fg-light:		#eeefef,
+			highlight:		lighten(#eeefef, 15),
+			border:			#eeefef,
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		#eeefef,
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent5: (
+			bg:				#990000,
+			fg:				mix(#990000, #ffffff, 25%),
+			fg-bold:		#ffffff,
+			fg-light:		mix(#990000, #ffffff, 40%),
+			highlight:		#ffffff,
+			border:			#fff,
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		#fff,
+			border2-bg:		rgba(255,255,255,0.2)
+		)
+	);
