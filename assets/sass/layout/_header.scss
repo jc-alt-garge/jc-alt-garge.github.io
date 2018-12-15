@@ -21,7 +21,7 @@
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transition) * 3} ease-in-out');
 		background-color: darken(_palette(accent2, bg), 12);
-		background-color: transparentize(darken(_palette(accent2, bg), 12), 0.025);
+		background-color: transparentize(darken(_palette(accent2, bg), 7), 0.025);
 		color: _palette(accent2, fg);
 		cursor: default;
 		font-weight: _font(weight-bold);
@@ -89,7 +89,7 @@
 		&.alt {
 			position: fixed;
 			background-color: transparent;
-			color: #ff9b19;
+			color: #7eaee5;
 
 			> h1 {
 				color: inherit;
