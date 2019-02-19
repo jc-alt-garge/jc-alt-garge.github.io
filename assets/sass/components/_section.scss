@@ -9,6 +9,9 @@
 	section, article, header {
 		&.special {
 			text-align: center;
+			td {
+				text-align: left;
+			}
 		}
 	}
 
