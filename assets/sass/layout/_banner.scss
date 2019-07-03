@@ -12,8 +12,8 @@
 		@include vendor(
 			'background-image',
 			(
-				'linear-gradient(top, rgba(180,160,233,0.25), rgba(234,86,159,0.15))',
-				'linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.75))',
+				'linear-gradient(top, rgba(230, 160, 233, 0.25), rgba(234,86,159,0.15))',
+				'linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.25))',
 				'url("../../images/banner.jpg")'
 			)
 		);
@@ -43,8 +43,8 @@
 
 		.inner {
 			@include padding(8em, 4em);
-			@include vendor('transition', ('opacity 0.85s ease', 'filter 0.85s ease', 'transform 0.85s ease'));
-			@include vendor('transition-delay', '0.75s');
+			@include vendor('transition', ('opacity 2.5s ease', 'filter 2.5s ease', 'transform 2.5s ease'));
+			@include vendor('transition-delay', '2.0s');
 			bottom: 0;
 			cursor: default;
 			left: 0;
@@ -87,6 +87,15 @@
 			height: 75vh;
 			min-height: 25em;
 
+			@include vendor(
+				'background-image',
+				(
+					'linear-gradient(top, rgba(230, 160, 233, 0.25), rgba(234,86,159,0.15))',
+					'linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.25))',
+					'url("../../images/pic05.jpg")'
+				)
+			);
+
 			.inner {
 				@include padding(2.5em, 2.5em);
 
@@ -103,6 +112,15 @@
 		}
 
 		@include breakpoint('<=xxsmall') {
+			@include vendor(
+				'background-image',
+				(
+					'linear-gradient(top, rgba(230, 160, 233, 0.25), rgba(234,86,159,0.15))',
+					'linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.25))',
+					'url("../../images/pic05.jpg")'
+				)
+			);
+
 			.inner {
 				@include padding(2em, 2em);
 			}
