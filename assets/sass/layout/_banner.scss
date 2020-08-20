@@ -29,7 +29,7 @@
 		text-transform: uppercase;
 
 		&:after {
-			@include vendor('transition', 'opacity 0.9s ease');
+			@include vendor('transition', 'opacity 0.8s ease');
 			content: '';
 			display: block;
 			width: 100%;
@@ -43,8 +43,8 @@
 
 		.inner {
 			@include padding(8em, 4em);
-			@include vendor('transition', ('opacity 1.1s ease', 'filter 1.1s ease', 'transform 1.1s ease'));
-			@include vendor('transition-delay', '0.7s');
+			@include vendor('transition', ('opacity 0.8s ease', 'filter 0.8s ease', 'transform 0.8s ease'));
+			@include vendor('transition-delay', '0.3s');
 			bottom: 0;
 			cursor: default;
 			left: 0;
